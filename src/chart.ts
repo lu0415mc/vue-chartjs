@@ -23,7 +23,7 @@ import {
 } from './utils.js'
 
 export const Chart = defineComponent({
-  props: Props,
+  // props: Props,
   setup(props, { expose, slots }) {
     const canvasRef = ref<HTMLCanvasElement | null>(null)
     const chartRef = shallowRef<ChartJS | null>(null)
