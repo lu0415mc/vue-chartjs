@@ -10,13 +10,13 @@ import {
 } from '../src/index.js'
 import * as barChartConfig from '../sandboxes/bar/src/chartConfig.js'
 
-export default {
-  title: 'Chart',
-  component: Chart,
-  parameters: {
-    layout: 'centered'
-  }
-}
+// export default {
+//   title: 'Chart',
+//   component: Chart,
+//   parameters: {
+//     layout: 'centered'
+//   }
+// }
 
 export function Default(args) {
   return {
